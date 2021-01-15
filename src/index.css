@@ -1,0 +1,404 @@
+/* 1...*...  */
+/* 2...body... */
+/* 3...input...*/
+/* 4...outer... */
+/* 5...outer input... */
+/* 6...inner... */
+/* 7...search_button... */
+/*  8...outerRoot...*/
+/* 9...innerRoot... */
+/* 10 ...media...*/
+/* 11...container...*/
+/* 12...favourite...*/
+/* 13...bg...*/
+/* 14...nav...*/
+/* 15...hover...*/
+/*16...food_text...*/
+/*17...footer...*/
+/*18...mediaQueries...*/
+/*19...lds-spinner...*/
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 1rem;
+    color: #2d2d2d;
+    font-family: 'Lemonada', cursive;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: rgb(236, 225, 236);
+   
+}
+
+input{
+   
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    font-family: 'Lemonada', cursive;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px 0px;
+}
+
+.outer{
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid rgb(185, 182, 176);
+   
+    background-color: #fff;
+    width:60%;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+
+.outer input{
+    width: 60%;
+    height: 46px;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: 'Lemonada', cursive;
+    padding-left: 15px;
+    color: #000;
+    vertical-align: top;
+    border:none;
+    overflow: auto;
+}
+
+.inner{
+    background-color: #f2f2f2;
+    color: #4d4d4d;
+    width: 25%;
+    text-align: center;
+    height: 44px;
+   align-items: center;
+    font-size: 12px;
+    position: relative;
+   top:2px;
+   right:2px;
+   float:right;
+    cursor: pointer !important;
+    line-height: 44px;
+}
+
+.search-button{
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    border:none;
+    float: right;
+    height: 49px;
+    width: 56px;
+    line-height: 0;
+    padding: 0;
+    background:rgb(15, 226, 226);
+}
+
+span.MuiTypography-root.MuiCardHeader-title.MuiTypography-h5.MuiTypography-displayBlock {
+    font-size: 16px;
+    font-family: 'Lemonada', cursive;
+}
+span.MuiTypography-root.MuiCardHeader-subheader.MuiTypography-body1.MuiTypography-colorTextSecondary.MuiTypography-displayBlock {
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: 'Lemonada', cursive;
+}
+p.MuiTypography-root.MuiTypography-body2.MuiTypography-colorTextSecondary {
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: 'Lemonada', cursive;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.MuiCardMedia-root.media {
+    height: 150px;
+}
+.MuiPaper-root.MuiCard-root.innerRoot.MuiPaper-elevation1.MuiPaper-rounded {
+     height: 420px;
+    padding:30px;
+      padding-bottom: 30px;
+}
+.outerRoot{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap:20px;
+   margin:50px;
+    grid-auto-rows: auto;
+   
+}
+.innerRoot{
+    max-width: 300px;
+    height: 300px;
+    
+}
+.media{
+   height:70px;
+    padding-top: 56.25%;
+}
+
+.container{
+    height:60px;
+    margin:0px;
+    border:1px #fff;
+    background-color: teal;
+    align-items: center;
+    display:flex;
+    position:sticky;
+    top:0px;
+    
+}
+
+.favourite{
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    color: rgb(218, 156, 218);
+}
+
+
+
+.bg{
+    background-image:url("https://thewallpaper.co//wp-content/uploads/2016/03/food-salad-restaurant-person-hd-wallpaper-high-resolution-background-images-desktop-images-of-windows-amazing-best-wallpaper-ever-images-free-stock-photos-pictures-1600x1066.jpg");
+   background-size: cover;
+   height:700px;
+    
+}
+nav{
+    top:0px;
+    position: sticky;
+}
+.inner:hover{
+    background-color:rgba(207, 196, 196, 0.513) ;
+}
+.search-button:hover{
+    background-color: rgb(60, 212, 197);
+}
+
+.food_text{
+    background-color: rgba(0, 0, 0, 0.383);
+    color:whitesmoke;
+    font-family: 'Lemonada', cursive;
+    font-size: 50px;
+    align-content: center;
+    position: relative;
+    left:20%;
+    top:20%;
+    width:80%; 
+    
+    
+}
+.foodyish{
+   
+    margin-left: 20px;
+    color:white;
+}
+
+
+footer{
+    margin-bottom: 0rem;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 2.5rem;
+
+}
+footer p{
+    color:#ccc;
+
+}
+
+@media only screen and (max-width: 900px)
+{
+    .bg{
+        height:400px;
+    }
+    .outer{
+        width:80%;
+    }
+    .outer input{
+        width: 50%;
+        font-size: 9px;
+    }
+    .inner{
+        width: 25%;
+        font-size:7px;
+            
+   
+    }
+    .outerRoot{
+        margin:30px;
+        gap:10px;
+    }
+   
+    .food_text{
+        font-size: 30px;
+    }
+    
+}
+@media only screen and (max-width: 800px)
+{
+    .outerRoot{
+        margin:30px;
+        gap:10px;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+     .outer{
+        width:90%;
+         height:40px
+        
+    }
+    .outer input{
+        width: 60%;
+         padding-left: 5px;
+        font-size: 9px;
+          height:36px
+        
+    }
+    .inner{
+        width: 25%;
+        font-size:7px;
+          height:30px;
+        top:4px;
+        text-align:center;
+         line-height: 34px;
+      
+    }
+     .bg{
+        height:200px;
+    }
+    .search-button{
+        height:40px;
+            width:35px;
+    }
+    .food_text{
+        font-size: 20px;
+    }
+    .outerRoot{
+       
+        gap:10px;
+        justify-items: center;
+    }
+    .foodyish{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 400px)
+{
+    .inner{
+        display:none;
+    }
+    .food_text{
+        font-size: 10px;
+    }
+    .outerRoot{
+        justify-items: center;
+    }
+    .foodyish{
+        margin-left: 2px;
+        font-size: 10px;
+    }
+}
+
+.lds-spinner {
+    color: official;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-left: 50%;
+  }
+  .lds-spinner div {
+    transform-origin: 40px 40px;
+    animation: lds-spinner 1.2s linear infinite;
+  }
+  .lds-spinner div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 37px;
+    width: 6px;
+    height: 18px;
+    border-radius: 20%;
+    background: #fff;
+  }
+  .lds-spinner div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -1.1s;
+  }
+  .lds-spinner div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -1s;
+  }
+  .lds-spinner div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.9s;
+  }
+  .lds-spinner div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.8s;
+  }
+  .lds-spinner div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.7s;
+  }
+  .lds-spinner div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.6s;
+  }
+  .lds-spinner div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.5s;
+  }
+  .lds-spinner div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.4s;
+  }
+  .lds-spinner div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.3s;
+  }
+  .lds-spinner div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.2s;
+  }
+  .lds-spinner div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.1s;
+  }
+  .lds-spinner div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+  }
+  @keyframes lds-spinner {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+
+
+
+
