@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SfoodApi/static/css/main.4b15c618.chunk.css",
+    "main.js": "/SfoodApi/static/js/main.a5a31b87.chunk.js",
+    "main.js.map": "/SfoodApi/static/js/main.a5a31b87.chunk.js.map",
+    "runtime-main.js": "/SfoodApi/static/js/runtime-main.fcba8ef4.js",
+    "runtime-main.js.map": "/SfoodApi/static/js/runtime-main.fcba8ef4.js.map",
+    "static/js/2.d80a8c96.chunk.js": "/SfoodApi/static/js/2.d80a8c96.chunk.js",
+    "static/js/2.d80a8c96.chunk.js.map": "/SfoodApi/static/js/2.d80a8c96.chunk.js.map",
+    "index.html": "/SfoodApi/index.html",
+    "precache-manifest.4bad907b461939b86964bfaa1693cedb.js": "/SfoodApi/precache-manifest.4bad907b461939b86964bfaa1693cedb.js",
+    "service-worker.js": "/SfoodApi/service-worker.js",
+    "static/css/main.4b15c618.chunk.css.map": "/SfoodApi/static/css/main.4b15c618.chunk.css.map",
+    "static/js/2.d80a8c96.chunk.js.LICENSE.txt": "/SfoodApi/static/js/2.d80a8c96.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcba8ef4.js",
+    "static/js/2.d80a8c96.chunk.js",
+    "static/css/main.4b15c618.chunk.css",
+    "static/js/main.a5a31b87.chunk.js"
+  ]
+}
